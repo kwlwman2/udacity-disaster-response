@@ -180,15 +180,8 @@ def build_model():
         ('clf', MultiOutputClassifier(RandomForestClassifier()))
     ])
     
-    # make a scorer
-    scorer = make_scorer(multioutput_fscore)
-    
-    #model parameters for GridSearchCV
-    parameters = {'clf__estimator__n_estimators': [10, 20]}
-    
-    cv = GridSearchCV(pipeline, param_grid=parameters, scoring = scorer, cv = 3)
-
-    return cv
+   
+    return pipeline
 
 
 def evaluate_model(pipeline, X_test, Y_test):
