@@ -1,6 +1,6 @@
 # udacity-disaster-response
 
-This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains tweet and messages from real-life disaster events. The project's aim is to build a Natural Language Processing (NLP) pipeline to categorize messages to differet categories of disasters on a real time basis.
+This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains tweet and messages from real-life disaster events. The project's aim is to build a Natural Language Processing (NLP) pipeline to classify disaster messages. Using the web app an emergency worker can input a new message and get classification results in several categories so to have an idea what kind of help is needed: "water", "shelter", "food", etc.
 
 
 ## This project is divided in the following key sections:
@@ -8,6 +8,24 @@ This Project is part of Data Science Nanodegree Program by Udacity in collaborat
 - Processing data, building an ETL pipeline to extract data from source, clean the data and save them in a SQLite DB
 - Build a machine learning pipeline to train the which can classify text message in various categories
 - Run a web app which can show model results in real time
+
+
+## Install
+
+This project requires Python 3.x and the following Python libraries installed:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Json
+- Plotly
+- Nltk
+- Flask
+- Sklearn
+- Sqlalchemy
+- Sys
+- Re
+- Pickle
 
 
 ## Executing Program:
@@ -19,5 +37,11 @@ You can run the following commands in the project's directory to set up the data
 - Run the following command in the app's directory to run your web app: `python run.py`
 
 Go to http://0.0.0.0:3001/
+
+
+## Acknowledgements
+
+- Udacity for providing an amazing Data Science Nanodegree Program
+- Figure Eight for providing the relevant dataset to train the model
 
 
