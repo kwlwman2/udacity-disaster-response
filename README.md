@@ -50,7 +50,7 @@ Go to http://0.0.0.0:3001/
 ## Screenshots
 
 ![alt text](https://github.com/kwlwman2/udacity-disaster-response/blob/main/screenshots/Screen%20Shot%202021-08-03%20at%208.54.19%20PM.png?raw=true)
-
+![alt text](https://github.com/kwlwman2/udacity-disaster-response/blob/main/screenshots/Screen%20Shot%202021-08-03%20at%208.54.27%20PM.png?raw=true)
 
 ## Acknowledgements
 
