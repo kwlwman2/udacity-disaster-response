@@ -47,6 +47,9 @@ Go to http://0.0.0.0:3001/
 - disaster_messages.csv, disaster_categories.csv contain sample messages (real messages that were sent during disaster events) and categories datasets in csv format.
 - templates folder: this folder contains all of the files necessary to run and render the web app.
 
+## Screenshots
+
+
 ## Acknowledgements
 
 - Udacity for providing an amazing Data Science Nanodegree Program
