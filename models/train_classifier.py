@@ -162,9 +162,7 @@ def build_model():
         A Scikit ML Pipeline that process text messages and apply a classifier.
         
     """
-    
-    
-    
+  
     # build up the pipeline for feature union and starting verb transformer
     pipeline = Pipeline([
         ('features', FeatureUnion([
@@ -180,8 +178,12 @@ def build_model():
         ('clf', MultiOutputClassifier(RandomForestClassifier()))
     ])
     
+    # set up parameters to fine tune the model
+    parameters = {'clf__estimator__n_estimators': (10, 20, 30)}
+    
+    cv = GridSearchCV(pipeline, param_grid = parameters, cv = 3, n_jobs = -1)
    
-    return pipeline
+    return cv
 
 
 def evaluate_model(pipeline, X_test, Y_test):
