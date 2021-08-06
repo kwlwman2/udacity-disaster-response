@@ -38,6 +38,9 @@ def clean_data(df):
     # remove duplicatess
     df = df.drop_duplicates(keep='first')
     
+    # slicing the data such that related event will not be equal to 2
+    df = df[df['related']!= 2]
+    
     return df
 
 
